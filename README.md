@@ -57,6 +57,6 @@ That’s it! 🎉 You’re now ready to explore the project.
 
 ### Why Vite? ⚡️
 
-I opted to use Vite as the bundler for this project because of its blazing-fast hot module replacement (HMR), optimized build speed, and overall efficiency in the development process. Vite leverages ESM (ES Modules) in the browser, making it much faster than traditional bundlers like Webpack.
+I opted to use Vite as the bundler for this project because of its fast hot module replacement (HMR), optimized build speed, and overall efficiency in the development process. Vite leverages ESM (ES Modules) in the browser, making it much faster than traditional bundlers like Webpack.
 
 Thank you for reviewing my submission. 🙏
