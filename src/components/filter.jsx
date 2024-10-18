@@ -50,20 +50,23 @@ const FilterTag = ({ children }) => {
     }; 
 
     return (
-        <div
-            onClick={handleToggleTag}
-            className={`rounded-2xl flex items-center gap-2 gap-2w-fit px-3 py-1 transition-all cursor-pointer ${isSelected ? 'bg-black' : 'bg-gray hover:bg-black'
-                }`}
-        >
-            <Typography
-                fontWeight="medium"
-                variant="p-m"
-                className={`transition-all ${isSelected ? 'text-white' : 'text-black'} mlg:text-xs`}
-            >
-                {children}
-            </Typography>
-            <div>{icon}</div>
-        </div>
+<div
+    onClick={handleToggleTag}
+    className={`rounded-2xl flex items-center gap-2 gap-2w-fit px-3 py-1 transition-all cursor-pointer ${
+        isSelected ? 'bg-black' : 'bg-gray hover:bg-black'
+    } group`}
+>
+    <Typography
+        fontWeight="medium"
+        variant="p-m"
+        className={`transition-all ${
+            isSelected ? 'text-white' : 'text-black group-hover:text-white'
+        } mlg:text-xs`}
+    >
+        {children}
+    </Typography>
+    <div>{icon}</div>
+</div>
     );
 };
 
